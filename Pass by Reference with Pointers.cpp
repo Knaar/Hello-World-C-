@@ -22,9 +22,8 @@ void promotion(int* x, int* y) {//вызываем функцию с адресами. В "x" мультиплер,
 }
 
 int main() {
-    int megabytes;
+    int megabytes, multiplier;
     cin >> megabytes;
-    int multiplier;
     cin >> multiplier;  //получаем начальное количество мегабайт и мультипликатор
 
     cout << "Before the promotion: " << megabytes << endl;//выводим количество мегабайт до акции
